@@ -1,0 +1,45 @@
+.Filter a list of String find All Elements that contain a specific subString and then sort them in reverse order ?
+.Convert a list Of integer into a map where Key is Integer and Value is Its Square ?
+.Group of list of Strings by their length and collect and  the result a into  map ?
+.Merge two list of Integers, remove the duplicates and find Remaining numbers's average ?
+.Find The Second Highest Number into list Of Integer By using stream ?
+.Partition into two group of List even numbers and Odd numbers  by Using stream?
+.Find The Longest String in a list of String By using stream?
+.Count The number of times Each word appears in a list of Strings?
+.Given a String find the first non-repeated character in String using stream ?
+.Given a String find the first repeated  character in String using stream?
+.Convert List Of String into a map key is String and Value String its length by Using stream?
+.Find Sum the All Prime Number of a list of Integer  using stream?
+.Filter a list Of Employee find The all Employees older them certain age and collect their names into a map with key being their name and value being their age ?
+.Find the Maximum and Minimum value in a list of integer single  pass using stream?
+.Sort a list of Employee by age and then By name Using stream?
+.Filter list of Strings to find the those that start with a specific prefix and Concatenate them into  a single String?
+.Create a Comma-separated String from a list of Integer Using stream?
+.Filter a List of Strings to find those String even length and Convert into UpperCase?
+.Calculate Of Length all String from List  Of String  using Stream?
+.Generate  a list the First 20 fiboncci number using stream?
+.Collect even and odd lengths of strings into maps with key being the length and value being the string and also sort them by length using stream.
+.Find the top N highest values in a list of integers.
+.Remove all elements in a list that appear more than once using streams.
+.Count the number of vowels in a string using streams.
+.Find the common elements between two lists of integers using streams.
+.Convert a list of integers to a list of strings representing their binary equivalents.
+.Calculate the product of all elements in a list of integers using streams.
+.Group a list of employees by department and then count the number of employees in each department.
+.Sort a list of strings based on their lengths and then alphabetically using streams.
+.Filter a list of Employees to find all employees with a specific last name and collect their email addresses into a list.
+.Given a list of integers, sort all the values present in it in descending order using Stream functions.
+.Given a List of Integers find total count, min, max, sum, and the average for numbers by using Stream API.
+.Given String str="telco" Toggle it to str="TELco" using streams.
+.Filter a list of strings to find those that are anagrams of a given word.
+.Generate a list of dates between two dates using streams.
+.Find the longest palindrome in a list of strings using streams.
+.Convert a list of integers into a list of their hexadecimal string representations.
+.Find all unique substrings of a given length in a string using streams.
+.How do you count the frequency of each character in a string using streams.
+.Calculate the sum of the squares of all even numbers in a list using streams.
+.Convert a list of dates into a map where the key is the year and the value is a list of dates in that year.
+.From a list of employees collect the list of employees who have unique name using streams.
+.Collect all the strings which are palindrome from a list of strings using streams.
+.Generate a list of first 10 prime numbers using streams.
+.From a list of employees, find the average salary of employees from each department and store them in a map (using stream API).
