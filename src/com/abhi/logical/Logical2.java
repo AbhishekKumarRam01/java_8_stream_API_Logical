@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class Logical2 {
 	public static void main(String arg[]) {
 		List<Integer> list = Arrays.asList(2, 3, 4, 5, 6, 7, 8);
-		Map<Integer, Integer> map = list.stream().collect(Collectors.toMap(num -> num, num -> num * num));
+	Map<Integer, Integer> map = list.stream().collect(Collectors.toMap(e->e*e, e->e));
 		System.err.println(map);
 		Map<Boolean, List<Integer>> collect = list.stream().collect(Collectors.partitioningBy(num -> num % 2 == 0));// ye
 																													// sirf
@@ -19,7 +19,7 @@ public class Logical2 {
 																													// karta
 																													// hai
 																													// Boolean
-		System.out.println(collect);
+	//	System.out.println(collect);
 		Map<Boolean, List<Integer>> collect2 = list.stream().collect(Collectors.groupingBy(num -> num % 2 == 0));// grouping
 																													// Method
 																													// Multiple

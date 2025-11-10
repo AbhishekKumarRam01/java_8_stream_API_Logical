@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Logical5 {
 	public static void main(String[] args) {
-		List<Integer> list = Arrays.asList();
-		Integer Secondhigh = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElseThrow(()->new NotFindException("Not Find Second Highest Number"));
-	System.out.println(Secondhigh);
+		List<Integer> list = Arrays.asList(89);
+		Integer Secondhi = list.stream().sorted(Comparator.reverseOrder()).skip(1).distinct().findFirst()
+				.orElseThrow(() -> new NotFindException("Nahi MIla "));
+		System.out.println(Secondhi);
 	}
-
 }

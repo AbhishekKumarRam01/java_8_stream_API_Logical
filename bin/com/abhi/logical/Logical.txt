@@ -43,3 +43,4 @@
 .Collect all the strings which are palindrome from a list of strings using streams.
 .Generate a list of first 10 prime numbers using streams.
 .From a list of employees, find the average salary of employees from each department and store them in a map (using stream API).
+Some Elements in List integer type So Remove Side zero and One side numbers .

@@ -10,5 +10,8 @@ public static void main(String[] args) {
 	List<String> list=Arrays.asList("Raman","karan","Suman","rajiv","Jyoti","rav","ram","K");
 	Map<Integer, List<String>> map = list.stream().collect(Collectors.groupingBy(String::length));
 	System.out.println(map);
+	Map<Boolean, List<String>> partition = list.stream()
+            .collect(Collectors.partitioningBy(s -> s.length() > 3));
+	System.out.println(partition);
 			}
 }

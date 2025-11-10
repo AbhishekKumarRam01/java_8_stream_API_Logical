@@ -8,13 +8,12 @@ import java.util.stream.Collectors;
 public class Logical6 {
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(23,43,45,1,2,23,12,23,12,9,123,8);
-		Map<Boolean, List<Integer>> map = list.stream().collect(Collectors.partitioningBy(num->num%2==0));
+		Map<Boolean, List<Integer>> map = list.stream().collect(Collectors.partitioningBy(e->e%2==0));
 		System.out.println(map);
-		 Map<String, List<Integer>> map2 = list.stream().collect(Collectors.groupingBy(num->num%2==0?"even":"odd"));
-		System.out.println(map2);
-		System.out.println("_-------------------------------------------_");
-		Map<Boolean, List<Integer>> map3 = list.stream().collect(Collectors.groupingBy(num->num%2==0));
-		map3.forEach((k,v)->System.out.println(k+" "+v));
+        Map<Boolean, List<Integer>> map2 = list.stream().collect(Collectors.groupingBy(e->e%2!=0));
+        System.out.println(map2);
+		Map<String, List<Integer>> map3 = list.stream().collect(Collectors.groupingBy(e->e%2==0?"Even":"Odd"));
+		System.out.println(map3);
 	}
 
 }

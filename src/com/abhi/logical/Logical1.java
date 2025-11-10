@@ -11,7 +11,7 @@ public class Logical1 {
 				"apricot");
 		List<String> list2 = list.stream().filter(e -> e.toLowerCase().contains("ap")).sorted(Comparator.reverseOrder())
 				.collect(Collectors.toList());
-		System.out.print(list2);
+		System.out.println(list2);
 	}
 
 }
